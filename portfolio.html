@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Alaa | Frontend Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdfa',
+              500: '#14b8a6',
+              600: '#0d9488',
+              700: '#0f766e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-teal-500 selection:text-white overflow-x-hidden">
+
+  <header class="fixed top-0 left-0 w-full z-50 bg-slate-950/85 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#hero" class="text-lg sm:text-xl font-bold tracking-tight text-white flex items-center gap-1 sm:gap-2">
+        <span class="text-teal-400">&lt;</span>Ahmed Alaa<span class="text-teal-400">&gt;</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#about" class="hover:text-teal-400 transition">About</a>
+        <a href="#services" class="hover:text-teal-400 transition">Services</a>
+        <a href="#skills" class="hover:text-teal-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-teal-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
+      </nav>
+      <a href="#contact" class="inline-flex items-center justify-center px-3.5 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-semibold text-slate-950 bg-teal-400 hover:bg-teal-300 rounded-lg transition shadow-lg shadow-teal-500/20">
+        Let's Talk
+      </a>
+    </div>
+  </header>
+
+  <main class="pt-20 sm:pt-24 space-y-20 sm:space-y-28">
+
+    <section id="hero" class="max-w-6xl mx-auto px-4 sm:px-6 pt-6 pb-12 flex flex-col-reverse lg:flex-row items-center justify-between gap-8 sm:gap-12">
+      <div class="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-teal-950/60 border border-teal-500/30 text-teal-300 mb-6">
+          <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+          Available for Frontend Roles & Freelance Work
+        </span>
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400">Ahmed Alaa</span>
+        </h1>
+        <p class="mt-3 sm:mt-4 text-lg sm:text-xl font-medium text-teal-400">
+          Frontend Web Developer
+        </p>
+        <p class="mt-4 text-sm sm:text-base text-slate-400 max-w-xl leading-relaxed">
+          Specialized in building pixel-perfect, interactive, and high-performance user interfaces using modern JavaScript, responsive CSS, and clean semantic architecture.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4">
+          <a href="#projects" class="w-full sm:w-auto px-6 py-3 rounded-lg font-medium bg-teal-500 hover:bg-teal-400 text-slate-950 transition flex items-center justify-center gap-2 shadow-lg shadow-teal-500/25">
+            View Projects <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="#contact" class="w-full sm:w-auto px-6 py-3 rounded-lg font-medium bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white transition text-center">
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <div class="flex-shrink-0 relative group">
+        <div class="absolute -inset-1.5 bg-gradient-to-r from-teal-500 to-cyan-500 rounded-full blur opacity-40 group-hover:opacity-70 transition duration-500"></div>
+        <div class="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-2 border-teal-500/40 bg-slate-900">
+          <img src="images/LinkedIn Profile Image.jpeg" alt="Ahmed Alaa" class="w-full h-full object-cover object-center" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="p-6 sm:p-8 rounded-2xl bg-slate-900/50 border border-slate-800 backdrop-blur-sm">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 flex items-center gap-3">
+          <i data-lucide="user" class="text-teal-400"></i> About Me
+        </h2>
+        <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+          I am a Frontend Web Developer with an academic background in Computer Science and Artificial Intelligence from Helwan University. I specialize in translating complex designs and requirements into clean, performant, and cross-device compatible web interfaces. My focus is centered on clean DOM scripting, modern styling frameworks, mobile-first design, and seamless user experiences.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10 sm:mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Services I Provide</h2>
+        <p class="text-slate-400 mt-2 text-sm sm:text-base">Tailored solutions focused on client outcomes and clean execution</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-teal-500/50 transition">
+          <div class="w-12 h-12 rounded-lg bg-teal-950 flex items-center justify-center text-teal-400 mb-4">
+            <i data-lucide="layout" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Responsive Web Design</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Pixel-perfect, mobile-friendly websites structured with semantic HTML5 and flexible CSS that adapt seamlessly across devices.
+          </p>
+        </div>
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-teal-500/50 transition">
+          <div class="w-12 h-12 rounded-lg bg-teal-950 flex items-center justify-center text-teal-400 mb-4">
+            <i data-lucide="code" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Dynamic Web Applications</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Interactive interfaces leveraging modern JavaScript (ES6+), custom UI components, animations, and efficient client-side logic.
+          </p>
+        </div>
+        <div class="p-6 rounded-xl bg-slate-900 border border-slate-800 hover:border-teal-500/50 transition">
+          <div class="w-12 h-12 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-center mb-4">
+            <svg class="w-6 h-6" viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#1ABCFE"/>
+              <path d="M0 47.5C0 42.2533 4.25329 38 9.5 38H19V47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5Z" fill="#0ACF83"/>
+              <path d="M19 0V19H28.5C33.7467 19 38 14.7467 38 9.5C38 4.25329 33.7467 0 28.5 0H19Z" fill="#FF7262"/>
+              <path d="M0 9.5C0 14.7467 4.25329 19 9.5 19H19V0H9.5C4.25329 0 0 4.25329 0 9.5Z" fill="#F24E1E"/>
+              <path d="M0 28.5C0 33.7467 4.25329 38 9.5 38H19V19H9.5C4.25329 19 0 23.2533 0 28.5Z" fill="#A259FF"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Figma to Functional Code</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            Converting design mockups and Figma prototypes into robust, responsive, and accessible code while preserving visual precision.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10 sm:mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Technical Toolkit</h2>
+        <p class="text-slate-400 mt-2 text-sm sm:text-base">Technologies and methodologies I leverage daily</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-teal-500/40 transition">
+          <p class="font-bold text-white">HTML5 / CSS3</p>
+          <span class="text-xs text-slate-400">Responsive & Flex/Grid</span>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-teal-500/40 transition">
+          <p class="font-bold text-white">JavaScript</p>
+          <span class="text-xs text-slate-400">ES6+, DOM & Async</span>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-teal-500/40 transition">
+          <p class="font-bold text-white">Figma</p>
+          <span class="text-xs text-slate-400">UI/UX Implementation</span>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-teal-500/40 transition">
+          <p class="font-bold text-white">PHP & MySQL</p>
+          <span class="text-xs text-slate-400">Backend Fundamentals</span>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-teal-500/40 transition">
+            <p class="font-bold text-white">OOP & Architecture</p>
+            <span class="text-xs text-slate-400">Java / C++ / DFD</span>
+          </div>
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 text-center hover:border-teal-500/40 transition">
+          <p class="font-bold text-white">Git & GitHub</p>
+          <span class="text-xs text-slate-400">Version Control</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10 sm:mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold text-white">Featured Projects</h2>
+        <p class="text-slate-400 mt-2 text-sm sm:text-base">Click any project card to view its full gallery, architecture, and details</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden flex flex-col justify-between group hover:border-teal-500/50 transition duration-300">
+          <a href="project-dos-benzen.html" target="_blank" class="block">
+            <div class="relative h-48 w-full overflow-hidden bg-slate-800">
+              <img src="images/Dos-Benzen.PNG" alt="Dos-Benzen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" />
+            </div>
+            <div class="p-5 sm:p-6 pb-2">
+              <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-400 transition">Dos-Benzen</h3>
+              <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                Interactive platform showcasing high-performance supercars with vehicle specifications, responsive multi-page catalog, and scroll animations.
+              </p>
+              <br>
+              <div class="flex flex-wrap gap-2 mb-2">
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">HTML5</span>
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">CSS3</span>
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">JavaScript</span>
+              </div>
+            </div>
+          </a>
+          <div class="p-5 sm:p-6 pt-3 border-t border-slate-800/60 flex items-center justify-between gap-3">
+            <a href="https://github.com/ahmed-alaa-kamal/dos-benzen" target="_blank" class="px-5 py-2.5 rounded-lg bg-teal-400 hover:bg-teal-300 text-slate-950 font-semibold text-sm flex items-center gap-2 transition shadow-lg shadow-teal-500/20">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg> Source Code
+            </a>
+            <a href="project-dos-benzen.html" target="_blank" class="flex-1 px-5 py-2.5 rounded-lg bg-teal-500/10 hover:bg-teal-500/20 text-teal-400 border border-teal-500/30 text-xs sm:text-sm font-semibold flex items-center justify-center gap-1.5 transition">
+              Details <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden flex flex-col justify-between group hover:border-teal-500/50 transition duration-300">
+          <a href="project-college.html" target="_blank" class="block">
+            <div class="relative h-48 w-full overflow-hidden bg-slate-800">
+              <img src="images/college.PNG" alt="College Management System" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" />
+            </div>
+            <div class="p-5 sm:p-6 pb-2">
+              <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-400 transition">College Management Portal</h3>
+              <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                Responsive educational dashboard engineered to organize student course enrollments, grade rosters, and academic performance tracking.
+              </p>
+              <br>
+              <br>
+              <div class="flex flex-wrap gap-2 mb-2">
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">HTML5 / CSS3</span>
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">JavaScript</span>
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">UI Dashboards</span>
+              </div>
+            </div>
+          </a>
+          <div class="p-5 sm:p-6 pt-3 border-t border-slate-800/60 flex items-center justify-between gap-3">
+            <a href="https://github.com/ahmed-alaa-kamal/College-Management-System" target="_blank" class="px-5 py-2.5 rounded-lg bg-teal-400 hover:bg-teal-300 text-slate-950 font-semibold text-sm flex items-center gap-2 transition shadow-lg shadow-teal-500/20">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg> Source Code
+            </a>
+            <a href="project-college.html" target="_blank" class="flex-1 px-5 py-2.5 rounded-lg bg-teal-500/10 hover:bg-teal-500/20 text-teal-400 border border-teal-500/30 text-xs sm:text-sm font-semibold flex items-center justify-center gap-1.5 transition">
+              Details <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden flex flex-col justify-between group hover:border-teal-500/50 transition duration-300">
+          <a href="project-hotel.html" target="_blank" class="block">
+            <div class="relative h-48 w-full overflow-hidden bg-slate-800">
+              <img src="images/hotel 2.PNG" alt="Hotel PMS" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" />
+            </div>
+            <div class="p-5 sm:p-6 pb-2">
+              <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-400 transition">Hotel Management System</h3>
+              <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                Structured Property Management System built with PHP & MySQL following the MVC pattern to handle room reservation lifecycles and records.
+              </p>
+              <br>
+              <div class="flex flex-wrap gap-2 mb-2">
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">PHP</span>
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">MySQL</span>
+                <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">MVC Pattern</span>
+              </div>
+            </div>
+          </a>
+          <div class="p-5 sm:p-6 pt-3 border-t border-slate-800/60 flex items-center justify-between gap-3">
+            <a href="https://github.com/ahmed-alaa-kamal/Hotel-PMS" target="_blank" class="px-5 py-2.5 rounded-lg bg-teal-400 hover:bg-teal-300 text-slate-950 font-semibold text-sm flex items-center gap-2 transition shadow-lg shadow-teal-500/20">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg> Source Code
+            </a>
+            <a href="project-hotel.html" target="_blank" class="flex-1 px-5 py-2.5 rounded-lg bg-teal-500/10 hover:bg-teal-500/20 text-teal-400 border border-teal-500/30 text-xs sm:text-sm font-semibold flex items-center justify-center gap-1.5 transition">
+              Details <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education" class="max-w-4xl mx-auto px-4 sm:px-6">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white mb-8 text-center">Education & Specialized Programs</h2>
+      <div class="space-y-4 sm:space-y-6">
+        <div class="p-5 sm:p-6 rounded-xl bg-slate-900/60 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h3 class="font-bold text-white">Helwan University</h3>
+            <p class="text-sm text-slate-400">Faculty of Computers & Artificial Intelligence</p>
+          </div>
+          <span class="text-xs text-teal-400 font-semibold px-3 py-1 bg-teal-950 rounded-full w-fit">2024 – Present</span>
+        </div>
+        <div class="p-5 sm:p-6 rounded-xl bg-slate-900/60 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h3 class="font-bold text-white">Digital Egypt Pioneers Initiative (DEPI) — MCIT</h3>
+            <p class="text-sm text-slate-400">Microsoft Machine Learning Engineer Trainee</p>
+          </div>
+          <span class="text-xs text-teal-400 font-semibold px-3 py-1 bg-teal-950 rounded-full w-fit">2026 – Present</span>
+        </div>
+        <div class="p-5 sm:p-6 rounded-xl bg-slate-900/60 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div>
+            <h3 class="font-bold text-white">Front-End Web Development Certification</h3>
+            <p class="text-sm text-slate-400">Creativa Innovation Hubs</p>
+          </div>
+          <span class="text-xs text-teal-400 font-semibold px-3 py-1 bg-teal-950 rounded-full w-fit">Completed</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="max-w-4xl mx-auto px-4 sm:px-6 pb-16 sm:pb-20">
+      <div class="p-6 sm:p-12 rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 text-center">
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-white mb-4">Have a project in mind? Let's talk!</h2>
+        <p class="text-slate-400 max-w-xl mx-auto mb-8 text-sm sm:text-base">
+          Whether you need a fully responsive website built from scratch or a high-converting interface, I am ready to collaborate.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="mail to:eng.ahmedalaakamal@gmail.com" class="w-full sm:w-auto px-5 py-3 rounded-xl font-semibold bg-teal-400 hover:bg-teal-300 text-slate-950 transition flex items-center justify-center gap-2 text-sm shadow-md">
+            <i data-lucide="mail" class="w-4 h-4"></i> eng.ahmedalaakamal@gmail.com
+          </a>
+
+          <a href="https://linkedin.com/in/ahmed-alaa-kamal" target="_blank" class="w-full sm:w-auto px-5 py-3 rounded-xl font-semibold bg-[#0A66C2] hover:bg-[#084e96] text-white transition flex items-center justify-center gap-2.5 text-sm shadow-md">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.67 1.67 0 1 0 0-3.34 1.67 1.67 0 0 0 0 3.34m1.4 9.74V10.13H5.06v8.37h2.8z"/>
+            </svg>
+            LinkedIn
+          </a>
+
+          <a href="https://github.com/ahmed-alaa-kamal" target="_blank" class="w-full sm:w-auto px-5 py-3 rounded-xl font-semibold bg-slate-800 hover:bg-slate-700 text-white transition flex items-center justify-center gap-2.5 text-sm shadow-md border border-slate-700">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-slate-800/80 flex flex-wrap justify-center items-center gap-6 text-xs text-slate-400">
+          <span class="flex items-center gap-1.5"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-teal-400"></i> Giza / Cairo, Egypt</span>
+          <a href="https://wa.me/201102480865" target="_blank" class="flex items-center gap-1.5 hover:text-teal-300 transition">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-teal-400"></i> +20 110 248 0865 (WhatsApp)
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500 px-4">
+    <p>© 2026 Ahmed Alaa. Built with semantic code & Tailwind CSS.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
